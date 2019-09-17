@@ -48,19 +48,19 @@
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
     <Reference Include="Firebase.Core">
-      <HintPath>..\packages\Xamarin.Firebase.iOS.Core.5.0.5\lib\Xamarin.iOS10\Firebase.Core.dll</HintPath>
+      <HintPath>..\FirebaseRemoteConfigSample\packages\Xamarin.Firebase.iOS.Core.5.2.0\lib\Xamarin.iOS10\Firebase.Core.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.InstanceID">
-      <HintPath>..\packages\Xamarin.Firebase.iOS.InstanceID.3.1.1\lib\Xamarin.iOS10\Firebase.InstanceID.dll</HintPath>
+      <HintPath>..\FirebaseRemoteConfigSample\packages\Xamarin.Firebase.iOS.InstanceID.3.4.0\lib\Xamarin.iOS10\Firebase.InstanceID.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Analytics">
-      <HintPath>..\packages\Xamarin.Firebase.iOS.Analytics.5.0.1\lib\Xamarin.iOS10\Firebase.Analytics.dll</HintPath>
+      <HintPath>..\FirebaseRemoteConfigSample\packages\Xamarin.Firebase.iOS.Analytics.5.5.0\lib\Xamarin.iOS10\Firebase.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.ABTesting">
-      <HintPath>..\packages\Xamarin.Firebase.iOS.ABTesting.2.0.0\lib\Xamarin.iOS10\Firebase.ABTesting.dll</HintPath>
+      <HintPath>..\FirebaseRemoteConfigSample\packages\Xamarin.Firebase.iOS.ABTesting.2.0.0.2\lib\Xamarin.iOS10\Firebase.ABTesting.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.RemoteConfig">
-      <HintPath>..\packages\Xamarin.Firebase.iOS.RemoteConfig.3.0.0\lib\Xamarin.iOS10\Firebase.RemoteConfig.dll</HintPath>
+      <HintPath>..\FirebaseRemoteConfigSample\packages\Xamarin.Firebase.iOS.RemoteConfig.3.1.0\lib\xamarinios10\Firebase.RemoteConfig.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -75,7 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xamarin.Plugin.Firebase.RemoteConfig.Abstractions\Xamarin.Plugin.Firebase.RemoteConfig.Abstractions.csproj">
-      <Project>{66A57C85-1CB7-4D83-95D3-0D3A84677ABB}</Project>
+      <Project>{73C73890-BA39-42F2-83CC-E3B45227C1BA}</Project>
       <Name>Xamarin.Plugin.Firebase.RemoteConfig.Abstractions</Name>
     </ProjectReference>
   </ItemGroup>
@@ -88,4 +88,8 @@
   <Import Project="..\packages\Xamarin.Firebase.iOS.Analytics.5.0.1\build\Xamarin.Firebase.iOS.Analytics.targets" Condition="Exists('..\packages\Xamarin.Firebase.iOS.Analytics.5.0.1\build\Xamarin.Firebase.iOS.Analytics.targets')" />
   <Import Project="..\packages\Xamarin.Firebase.iOS.ABTesting.2.0.0\build\Xamarin.Firebase.iOS.ABTesting.targets" Condition="Exists('..\packages\Xamarin.Firebase.iOS.ABTesting.2.0.0\build\Xamarin.Firebase.iOS.ABTesting.targets')" />
   <Import Project="..\packages\Xamarin.Firebase.iOS.RemoteConfig.3.0.0\build\Xamarin.Firebase.iOS.RemoteConfig.targets" Condition="Exists('..\packages\Xamarin.Firebase.iOS.RemoteConfig.3.0.0\build\Xamarin.Firebase.iOS.RemoteConfig.targets')" />
+  <Import Project="..\FirebaseRemoteConfigSample\packages\Xamarin.Firebase.iOS.InstanceID.3.4.0\build\Xamarin.Firebase.iOS.InstanceID.targets" Condition="Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.Firebase.iOS.InstanceID.3.4.0\build\Xamarin.Firebase.iOS.InstanceID.targets')" />
+  <Import Project="..\FirebaseRemoteConfigSample\packages\Xamarin.Firebase.iOS.Analytics.5.5.0\build\Xamarin.Firebase.iOS.Analytics.targets" Condition="Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.Firebase.iOS.Analytics.5.5.0\build\Xamarin.Firebase.iOS.Analytics.targets')" />
+  <Import Project="..\FirebaseRemoteConfigSample\packages\Xamarin.Firebase.iOS.ABTesting.2.0.0.2\build\Xamarin.Firebase.iOS.ABTesting.targets" Condition="Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.Firebase.iOS.ABTesting.2.0.0.2\build\Xamarin.Firebase.iOS.ABTesting.targets')" />
+  <Import Project="..\FirebaseRemoteConfigSample\packages\Xamarin.Firebase.iOS.RemoteConfig.3.0.1\build\Xamarin.Firebase.iOS.RemoteConfig.targets" Condition="Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.Firebase.iOS.RemoteConfig.3.0.1\build\Xamarin.Firebase.iOS.RemoteConfig.targets')" />
 </Project>
